@@ -1,6 +1,6 @@
 #include "Matrix.h"
-
-/// <summary>
+//author:richard henderson
+//date26/11/2020
 /// default constructor: set all values to zero
 /// </summary>
 /// <returns> creates the null matrix</returns>
@@ -20,15 +20,15 @@ Matrix::Matrix()
 /// <summary>
 /// Matrix constructor
 /// </summary>
-/// <param name="t_m11">value for m11</param>
-/// <param name="t_m12">value for m12</param>
-/// <param name="t_m13">value for m13</param>
-/// <param name="t_m21">value for second row fisrt element</param>
-/// <param name="t_m22">value for second row second element</param>
-/// <param name="t_m23">value for second row third element</param>
-/// <param name="t_m31">value for m31</param>
-/// <param name="t_m32">value for m32</param>
-/// <param name="t_m33">value for m33</param>
+ t_m11=m11
+ t_m12= m12
+ t_m13= m13
+t_m21 =value for second row fisrt element
+t_m22=value for second row second element
+t_m23=value for second row third element
+t_m31=value for m31</param>
+t_m32=value for m32</param>
+t_m33=value for m33</param>
 /// <returns>matrix with the nine values passed in</returns>
 Matrix::Matrix(
 	float t_m11, 
@@ -179,3 +179,4 @@ Matrix Matrix::getTranspose() const
 void Matrix::transpose()
 {
 }
+return result
